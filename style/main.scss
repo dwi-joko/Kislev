@@ -5,12 +5,21 @@ body {
   margin: 0;
   padding: 0;
   background-color: $lighterGrey;
+  font-family: "Calibri-Bold";
 }
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  li {
+    list-style-type: none;
+  }
 }
 
 header {
@@ -63,6 +72,132 @@ header {
       text-align: center;
       p {
         text-transform: capitalize;
+      }
+    }
+  }
+}
+
+.section {
+  .title-section {
+    padding: 1.625rem 0;
+    margin: 0;
+  }
+}
+
+.filter-bar {
+  border-bottom: 1px solid $black;
+  padding: 1rem 0;
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .list-filter {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      label {
+        display: block;
+        padding-right: 1rem;
+      }
+      .border-rounded {
+        background: #e0e0e0;
+        border: 1px solid $black;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        padding: 0.5rem 1rem;
+        text-transform: capitalize;
+        font-size: 1rem;
+        margin: 0 !important;
+        .icon {
+          width: 1rem;
+          height: 1rem;
+          background: #020202;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 100%;
+          margin-left: 0.7rem;
+          img {
+            width: 50%;
+          }
+        }
+      }
+    }
+  }
+}
+
+// highlight product
+
+.highlight {
+  padding-top: 2rem;
+  .card-default {
+    border: 0;
+    border-radius: 0;
+    padding: 1.125rem;
+    .bestell {
+      position: absolute;
+      left: 0;
+      top: -1rem;
+      background: #ffa500;
+      padding: 0.2rem 1.5rem;
+    }
+    ul {
+      display: flex;
+      width: 100%;
+      justify-content: space-around;
+      align-items: center;
+      li {
+        padding: 0 0.5rem;
+      }
+      .desc {
+        padding: 0 2rem;
+        .title-product {
+          text-decoration: underline;
+        }
+      }
+      .actions {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .btn-default {
+          display: flex;
+          align-items: center;
+          background: #ffa502;
+          padding: 0.7rem 1.3rem;
+          height: unset !important;
+          line-height: 1;
+          min-height: auto !important;
+          border-radius: 50px;
+        }
+        .totals {
+          display: flex;
+          align-items: center;
+          .value-button {
+            width: 40px;
+            height: 40px;
+            border: 1px solid #e0e0e0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          input {
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: #e0e0e0;
+            border: 0;
+          }
+        }
+      }
+      .desc-content {
+        display: flex;
+        p {
+          font-size: 0.875rem;
+        }
       }
     }
   }

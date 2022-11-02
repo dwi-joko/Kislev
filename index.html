@@ -72,11 +72,141 @@
         </div>
       </nav>
     </header>
-    <div class="container">
-      <div class="row">
-        <h1>Recommended Products</h1>
-      </div>
-    </div>
+    <main>
+      <section class="section product">
+        <div class="container">
+          <div class="row">
+            <h1 class="title-section">Recommended Products</h1>
+            <div class="filter-bar">
+              <ul>
+                <li class="list-filter">
+                  <label for="filter">Select Filters :</label>
+                  <div class="selected border-rounded">
+                      <p>continental <div class="icon"><img src="assets/close.svg" alt=""></div></p> 
+                  </div>
+                </li>
+                <li class="list-filter sort">
+                  <label for="filter">Sort by :</label>
+                  <select class="border-rounded form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                    <option selected>Popularity</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                  
+                </li>
+              </ul>
+            </div>
+            <div class="highlight">
+                <div class="row">
+                    <div class="col-lg-6 col-sm-6 col-xs-12">
+                       <div class="card card-default">
+                            <label for="best" class="bestell">Premium Bestseller</label>
+                            <ul>
+                                <li class="images">
+                                    <img src="assets/wheel.svg" alt="">
+                                </li>
+                                <li class="desc">
+                                    <h3 class="title-product">Continental - Contiecocontact 5</h3>
+                                    <div class="desc-content">
+                                        <ul class="child">
+                                            <li>
+                                                <div class="badge">
+                                                    <img src="assets/approve.svg" alt="">
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <p>205/55 R16 H</p>
+                                                <p>SUV</p>
+                                            </li>
+                                            <li>
+                                                <p class="stock">Stock <span class="icon"><img src="assets/icon-check.svg" alt=""></span> </p>
+                                                <p class="pricing">Price <span>₪340</span></p>
+                                            </li>
+                                            <li>
+                                                <p>Total</p>
+                                                <h4>₪1,360</h4>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="actions">
+                                        <form class="totals">
+                                            <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value">-</div>
+                                            <input type="number" id="number" value="0" />
+                                            <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value">+</div>
+                                          </form>
+                                          <button class="btn btn-default">
+                                              <div class="icon">
+                                                  <img src="/assets/icon-cart-plus.svg" alt="cart">
+                                              </div>
+                                              <p>Add to Cart</p>
+                                          </button>
+                                    </div>
+                                </li>
+                            </ul>
+                       </div> 
+                    </div>
+
+                    <div class="col-lg-6 col-sm-6 col-xs-12">
+                        <div class="card card-default">
+                             <label for="best" class="bestell">Premium Bestseller</label>
+                             <ul>
+                                 <li class="images">
+                                     <img src="assets/wheel.svg" alt="">
+                                 </li>
+                                 <li class="desc">
+                                     <h3 class="title-product">Continental - Contiecocontact 5</h3>
+                                     <div class="desc-content">
+                                         <ul class="child">
+                                             <li>
+                                                 <div class="badge">
+                                                     <img src="assets/approve.svg" alt="">
+                                                 </div>
+                                             </li>
+                                             <li>
+                                                 <p>205/55 R16 H</p>
+                                                 <p>SUV</p>
+                                             </li>
+                                             <li>
+                                                 <p class="stock">Stock <span class="icon"><img src="assets/icon-check.svg" alt=""></span> </p>
+                                                 <p class="pricing">Price <span>₪340</span></p>
+                                             </li>
+                                             <li>
+                                                 <p>Total</p>
+                                                 <h4>₪1,360</h4>
+                                             </li>
+                                         </ul>
+                                     </div>
+                                     <div class="actions">
+                                         <form class="totals">
+                                             <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value">-</div>
+                                             <input type="number" id="number" value="0" />
+                                             <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value">+</div>
+                                           </form>
+                                           <button class="btn btn-default">
+                                               <div class="icon">
+                                                   <img src="/assets/icon-cart-plus.svg" alt="cart">
+                                               </div>
+                                               <p>Add to Cart</p>
+                                           </button>
+                                     </div>
+                                 </li>
+                             </ul>
+                        </div> 
+                     </div>
+                </div>
+
+                <div class="row list-product">
+                    <div class="col-sm-12">
+
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="js/custom.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap/bootstrap.bundle.js"></script>
   </body>
 </html>

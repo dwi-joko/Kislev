@@ -44,6 +44,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
+  font-family: "Calibri-Bold";
 }
 
 * {
@@ -51,6 +52,15 @@ body {
           box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style-type: none;
 }
 
 header {
@@ -118,5 +128,201 @@ header .nav-item .nav-icon {
 
 header .nav-item .nav-icon p {
   text-transform: capitalize;
+}
+
+.section .title-section {
+  padding: 1.625rem 0;
+  margin: 0;
+}
+
+.filter-bar {
+  border-bottom: 1px solid #000000;
+  padding: 1rem 0;
+}
+
+.filter-bar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.filter-bar ul .list-filter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.filter-bar ul .list-filter label {
+  display: block;
+  padding-right: 1rem;
+}
+
+.filter-bar ul .list-filter .border-rounded {
+  background: #e0e0e0;
+  border: 1px solid #000000;
+  border-radius: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.5rem 1rem;
+  text-transform: capitalize;
+  font-size: 1rem;
+  margin: 0 !important;
+}
+
+.filter-bar ul .list-filter .border-rounded .icon {
+  width: 1rem;
+  height: 1rem;
+  background: #020202;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 100%;
+  margin-left: 0.7rem;
+}
+
+.filter-bar ul .list-filter .border-rounded .icon img {
+  width: 50%;
+}
+
+.highlight {
+  padding-top: 2rem;
+}
+
+.highlight .card-default {
+  border: 0;
+  border-radius: 0;
+  padding: 1.125rem;
+}
+
+.highlight .card-default .bestell {
+  position: absolute;
+  left: 0;
+  top: -1rem;
+  background: #ffa500;
+  padding: 0.2rem 1.5rem;
+}
+
+.highlight .card-default ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.highlight .card-default ul li {
+  padding: 0 0.5rem;
+}
+
+.highlight .card-default ul .desc {
+  padding: 0 2rem;
+}
+
+.highlight .card-default ul .desc .title-product {
+  text-decoration: underline;
+}
+
+.highlight .card-default ul .actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.highlight .card-default ul .actions .btn-default {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #ffa502;
+  padding: 0.7rem 1.3rem;
+  height: unset !important;
+  line-height: 1;
+  min-height: auto !important;
+  border-radius: 50px;
+}
+
+.highlight .card-default ul .actions .totals {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.highlight .card-default ul .actions .totals .value-button {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #e0e0e0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.highlight .card-default ul .actions .totals input {
+  width: 40px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  background: #e0e0e0;
+  border: 0;
+}
+
+.highlight .card-default ul .desc-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.highlight .card-default ul .desc-content p {
+  font-size: 0.875rem;
 }
 /*# sourceMappingURL=main.css.map */
