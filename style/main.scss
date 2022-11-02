@@ -1,0 +1,69 @@
+@import "./color";
+@import "./typography";
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $lighterGrey;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: $white;
+  .navbar-brand {
+    padding: 0 1.3125rem;
+    img {
+      width: 11.25rem;
+    }
+  }
+
+  .navbar form {
+    position: relative;
+  }
+
+  .navbar {
+    form {
+      width: 55%;
+      padding-left: 7rem;
+      .form-control {
+        border-radius: 50px;
+        padding: 0.5rem;
+        padding-left: 1.125rem;
+      }
+      .btn {
+        border-radius: 100%;
+        width: 36px;
+        height: 36px;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        right: 12px;
+        top: 0;
+        bottom: 0;
+        transform: translateY(3px);
+        background: $yellow;
+        border: 0;
+        img {
+          width: 16px;
+        }
+      }
+    }
+  }
+
+  .nav-item {
+    padding-left: 1.5rem;
+    .nav-icon {
+      text-align: center;
+      p {
+        text-transform: capitalize;
+      }
+    }
+  }
+}
