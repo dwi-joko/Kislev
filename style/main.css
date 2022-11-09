@@ -1,11 +1,13 @@
 @font-face {
   font-family: "Calibri-Bold-Italic";
   src: url("/assets/font/Calibri-Bold-Italic.ttf") format("ttf");
+  src: local("Calibri-Bold-Italic"), url("/assets/font/Calibri-Bold-Italic.ttf");
 }
 
 @font-face {
   font-family: "Calibri-Bold";
   src: url("/assets/font/Calibri-Bold.TTF") format("ttf");
+  src: local("Calibri-Bold"), url("/assets/font/Calibri-Bold.TTF");
 }
 
 h1 {
@@ -149,6 +151,9 @@ p {
   .highlight .list-card ul li span {
     padding-left: 0 !important;
   }
+  .highlight .list-card ul li:last-child {
+    padding-left: 0.2rem !important;
+  }
   .highlight .list-card ul .name {
     max-width: 15%;
     width: 100%;
@@ -178,6 +183,10 @@ p {
 }
 
 @media screen and (max-width: 1000px) {
+  header .navbar .container {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
   header .navbar .container .navbar-brand .d-logo {
     display: none;
   }

@@ -45,6 +45,10 @@
           span {
             padding-left: 0 !important;
           }
+
+          &:last-child {
+            padding-left: 0.2rem !important;
+          }
         }
         .name {
           max-width: 15%;
@@ -85,6 +89,7 @@
   header {
     .navbar {
       .container {
+        flex-wrap: nowrap;
         .navbar-brand {
           .d-logo {
             display: none;

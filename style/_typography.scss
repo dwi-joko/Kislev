@@ -1,11 +1,13 @@
 @font-face {
   font-family: "Calibri-Bold-Italic";
   src: url("/assets/font/Calibri-Bold-Italic.ttf") format("ttf");
+  src: local("Calibri-Bold-Italic"), url("/assets/font/Calibri-Bold-Italic.ttf");
 }
 
 @font-face {
   font-family: "Calibri-Bold";
   src: url("/assets/font/Calibri-Bold.TTF") format("ttf");
+  src: local("Calibri-Bold"), url("/assets/font/Calibri-Bold.TTF");
 }
 
 h1 {
