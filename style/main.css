@@ -40,6 +40,339 @@ p {
   font-style: italic;
 }
 
+.btn-default {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #ffa500;
+  padding: 0.7rem 1.3rem;
+  height: unset !important;
+  line-height: 1;
+  min-height: auto !important;
+  border-radius: 50px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.btn-default:hover {
+  background: #ffbb3d;
+}
+
+.btn-default p {
+  padding-left: 1rem;
+}
+
+.totals {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.totals .value-button {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #e0e0e0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.totals .btn-light {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #e0e0e0;
+  background: transparent;
+}
+
+.totals input {
+  width: 40px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  background: #e0e0e0;
+  border: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .highlight .card-default ul .desc {
+    padding: 0 0rem !important;
+  }
+  .highlight .card-default ul .actions {
+    padding-top: 1rem;
+  }
+  .highlight .card-default ul .images .product-label {
+    right: 0 !important;
+  }
+  .highlight .card-default ul .desc-content ul {
+    display: inline-block;
+  }
+  .highlight .card-default ul .desc-content ul li {
+    display: inline-block;
+    display: table-cell;
+    padding: 0.5rem 0.5rem 0 0;
+    vertical-align: top;
+  }
+  .highlight .card-default ul .desc-content ul li:first-child {
+    padding-top: 0;
+  }
+  .highlight .list-card ul li {
+    display: inline-block !important;
+    width: unset !important;
+    padding-left: 0.5rem !important;
+  }
+  .highlight .list-card ul li p {
+    padding-left: 0 !important;
+  }
+  .highlight .list-card ul li h4 {
+    padding-left: 0.2rem !important;
+  }
+  .highlight .list-card ul li span {
+    padding-left: 0 !important;
+  }
+  .highlight .list-card ul .name {
+    max-width: 15%;
+    width: 100%;
+    padding-left: 0 !important;
+  }
+  .highlight .list-card ul .name p {
+    padding-left: 0;
+    max-width: 100% !important;
+  }
+  .highlight .list-card ul .total {
+    text-align: left;
+  }
+  .highlight .list-card ul .stock {
+    max-width: 11%;
+    width: 100% !important;
+  }
+  .highlight .list-card ul .stock .notes {
+    display: block;
+    font-size: 0.875rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  header .navbar-brand .m-logo {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  header .navbar .container .navbar-brand .d-logo {
+    display: none;
+  }
+  header .navbar .container .navbar-brand .m-logo {
+    width: 100%;
+  }
+  header .navbar .container form {
+    padding-left: 0;
+    width: 50%;
+  }
+  header .navbar .container .navbar-right .navbar-nav {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .highlight .card-default {
+    position: relative;
+    padding-bottom: 5rem !important;
+  }
+  .highlight .card-default ul .actions {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    padding: 1rem 1rem;
+  }
+  .highlight .card-default ul .desc-content ul li {
+    display: inline-block;
+    width: 49%;
+    padding: 1rem 0 0;
+  }
+  .highlight .card-default ul .desc-content ul li p {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .highlight .card-default ul .desc-content ul li .stock,
+  .highlight .card-default ul .desc-content ul li .pricing {
+    display: inline-block;
+    width: 47%;
+  }
+  .highlight .card-default ul .desc-content ul:nth-of-type(3) p {
+    display: inline-block;
+    width: 40%;
+    text-align: center;
+  }
+  .highlight .card-default ul .images .product-label {
+    top: -22% !important;
+  }
+  .highlight .card-default ul .images .product-label img {
+    width: 80%;
+  }
+  .highlight .list-product .list-card ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    /* flex-direction: row; */
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%;
+  }
+  .highlight .list-product .list-card ul li {
+    max-width: unset !important;
+    width: 50% !important;
+    padding: 0 !important;
+  }
+  .highlight .list-product .list-card ul li:last-child {
+    -webkit-box-ordinal-group: 11;
+        -ms-flex-order: 10;
+            order: 10;
+    margin-top: 1rem;
+  }
+  .highlight .list-product .list-card ul .stock,
+  .highlight .list-product .list-card ul .status,
+  .highlight .list-product .list-card ul .price,
+  .highlight .list-product .list-card ul .total {
+    width: 25% !important;
+  }
+  .highlight .list-product .list-card ul .name {
+    margin-bottom: 1rem;
+  }
+  .highlight .list-product .list-card ul .series {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .highlight .list-product .list-card ul .status {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+    width: 13% !important;
+    padding-right: 0.3rem !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .highlight .list-product .list-card ul .status img {
+    width: 100%;
+  }
+  .highlight .list-product .list-card ul .qty {
+    -webkit-box-ordinal-group: 10;
+        -ms-flex-order: 9;
+            order: 9;
+    margin-top: 1rem;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  .highlight .list-product .list-card ul .stock {
+    -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+            order: 4;
+    width: 37% !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .highlight .list-product .list-card ul .total {
+    -webkit-box-ordinal-group: 6;
+        -ms-flex-order: 5;
+            order: 5;
+    width: 35% !important;
+    padding-left: 1rem !important;
+  }
+  .highlight .list-product .list-card ul .price {
+    -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+            order: 4;
+    width: 13% !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header .navbar .container form {
+    padding-left: 0;
+    width: 13%;
+  }
+  header .navbar .container form .form-control {
+    border: 0;
+  }
+  header .navbar .container .navbar-right .navbar-nav {
+    margin: 0 !important;
+  }
+  header .navbar .container .navbar-right .navbar-nav .nav-item p {
+    display: none;
+  }
+  main {
+    overflow: hidden;
+    padding: 1rem;
+  }
+  main .section .title-section {
+    padding: 1.625rem 0 0;
+  }
+  main .section .filter-bar ul {
+    display: none;
+  }
+  main .section .highlight .row:first-child {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -ms-scroll-snap-type: x mandatory;
+        scroll-snap-type: x mandatory;
+    overflow-x: scroll;
+  }
+  main .section .highlight .row:first-child .col-xs-12 {
+    scroll-snap-align: start;
+    padding-top: 2rem;
+  }
+  main .section .highlight .row::-webkit-scrollbar {
+    display: none;
+  }
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -137,7 +470,7 @@ header .nav-item .nav-icon p {
 
 .filter-bar {
   border-bottom: 1px solid #000000;
-  padding: 1rem 0;
+  padding: 0 0 1rem;
 }
 
 .filter-bar ul {
@@ -170,7 +503,7 @@ header .nav-item .nav-icon p {
 }
 
 .filter-bar ul .list-filter .border-rounded {
-  background: #e0e0e0;
+  background-color: #e0e0e0;
   border: 1px solid #000000;
   border-radius: 50px;
   display: -webkit-box;
@@ -206,8 +539,17 @@ header .nav-item .nav-icon p {
   width: 50%;
 }
 
+.filter-bar ul .sort .border-rounded {
+  padding: 0.5rem 3rem 0.5rem 1rem;
+  width: unset;
+}
+
 .highlight {
-  padding-top: 2rem;
+  padding: 2rem 0;
+}
+
+.highlight .list-product .item-product {
+  display: none;
 }
 
 .highlight .card-default {
@@ -240,6 +582,16 @@ header .nav-item .nav-icon p {
   padding: 0 0.5rem;
 }
 
+.highlight .card-default ul .images {
+  position: relative;
+}
+
+.highlight .card-default ul .images .product-label {
+  position: absolute;
+  right: -22%;
+  top: 0;
+}
+
 .highlight .card-default ul .desc {
   padding: 0 2rem;
 }
@@ -260,62 +612,6 @@ header .nav-item .nav-icon p {
           align-items: center;
 }
 
-.highlight .card-default ul .actions .btn-default {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background: #ffa502;
-  padding: 0.7rem 1.3rem;
-  height: unset !important;
-  line-height: 1;
-  min-height: auto !important;
-  border-radius: 50px;
-}
-
-.highlight .card-default ul .actions .totals {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.highlight .card-default ul .actions .totals .value-button {
-  width: 40px;
-  height: 40px;
-  border: 1px solid #e0e0e0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.highlight .card-default ul .actions .totals input {
-  width: 40px;
-  height: 40px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  background: #e0e0e0;
-  border: 0;
-}
-
 .highlight .card-default ul .desc-content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -324,5 +620,104 @@ header .nav-item .nav-icon p {
 
 .highlight .card-default ul .desc-content p {
   font-size: 0.875rem;
+}
+
+.highlight .list-card {
+  padding: 1.125rem;
+  border: 0;
+  border-radius: 0;
+  margin-top: 1rem;
+}
+
+.highlight .list-card ul li {
+  display: table-cell;
+  width: 1%;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.highlight .list-card ul li span,
+.highlight .list-card ul li h4 {
+  display: inline-block;
+  padding-left: 0.5rem;
+  margin: 0;
+}
+
+.highlight .list-card ul li p,
+.highlight .list-card ul li h4 {
+  padding-left: 1rem;
+  display: inline-block;
+}
+
+.highlight .list-card ul li .totals {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.highlight .list-card ul:last-child .btn {
+  text-align: right;
+  margin: auto;
+}
+
+.highlight .list-card ul .name p {
+  max-width: 80%;
+  text-decoration: underline;
+}
+
+.highlight .list-card ul .total span {
+  color: #8e1216;
+  padding-left: 0;
+}
+
+.highlight .list-card ul .total p {
+  display: inline-block;
+}
+
+.highlight .list-card ul .name,
+.highlight .list-card ul .series {
+  text-align: left;
+}
+
+.highlight .list-card ul .stock {
+  text-align: left;
+  padding-left: 2rem;
+}
+
+.highlight .list-card ul .stock p,
+.highlight .list-card ul .stock span {
+  padding: 0;
+}
+
+.highlight .cta {
+  padding-top: 2rem;
+}
+
+.highlight .cta a {
+  border: 1px solid #000000;
+  display: block;
+  text-align: center;
+  border-radius: 4rem;
+  padding: 0.875rem;
+  text-decoration: none;
+  color: #000000;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  font-size: 1.125rem;
+}
+
+.highlight .cta a:hover {
+  background: #ffa500;
+  border-color: #ffa500;
+}
+
+.highlight .cta .emptyList {
+  cursor: not-allowed;
+  display: none;
+}
+
+.highlight .cta .emptyList:hover {
+  background: transparent;
+  border-color: #000;
 }
 /*# sourceMappingURL=main.css.map */
