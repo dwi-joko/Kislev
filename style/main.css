@@ -459,8 +459,14 @@ header .nav-item .nav-icon {
   text-align: center;
 }
 
+header .nav-item .nav-icon .icon img {
+  height: 30px;
+}
+
 header .nav-item .nav-icon p {
   text-transform: capitalize;
+  color: #9c9d9d;
+  padding-top: 0.2rem;
 }
 
 .section .title-section {

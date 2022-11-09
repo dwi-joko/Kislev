@@ -72,8 +72,15 @@ header {
     padding-left: 1.5rem;
     .nav-icon {
       text-align: center;
+      .icon {
+        img {
+          height: 30px;
+        }
+      }
       p {
         text-transform: capitalize;
+        color: $grey;
+        padding-top: 0.2rem;
       }
     }
   }
